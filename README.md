@@ -1,6 +1,6 @@
 # Shapes (electron version)
 
-###Summary
+### Summary
 
 This is a simple js app based on clicker games that produces randomly coloured squares and circles with physics on mouse click. 
 The app uses electron to run as a desktop app.
@@ -8,7 +8,7 @@ I use the matter.js library for physics simulation and p5.js for rendering.
 
 This was my first JS project after coming from a C++ background so my JS style is not the best.
 
-###Installation
+### Installation
 
 Install required node modules using:
 ```
@@ -22,7 +22,7 @@ npm start
 
 The p5.min.js and matter.min.js libs are included in the repo.
 
-###Instructions
+### Instructions
 
 Clicking on the screen causes shapes to appear near the cursor. Every click alternates between creating squares and circles.
 The total number of shapes created increases the score. As the score increases, more shapes are created with each click. 
@@ -35,7 +35,7 @@ Shift + click and drag will create an invisible "vacuum" on the cursor location 
 Pressing spacebar removes all shapes from the screen. You score should not reset.
 Pressing the 'R' key removes all shapes and resets your score (and thus your shapes per click).
 
-###Possible Improvements
+### Possible Improvements
 
 - Clean up style of code using more object passing for better functionality between objects
 - Fix the "Vacuum" functionality
