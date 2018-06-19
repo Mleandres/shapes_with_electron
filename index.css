@@ -1,0 +1,24 @@
+#scoreBox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  max-width: 100px;
+  height: 50px;
+  background-color: rgba(200,200,200,0.8);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+#game {
+  position: relative;
+}
