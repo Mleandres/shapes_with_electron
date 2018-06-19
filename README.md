@@ -12,7 +12,7 @@ This was my first JS project after coming from a C++ background so my JS style i
 
 Install required node modules using:
 ```
-npm install --save
+npm install
 ```
 
 Then run using:
