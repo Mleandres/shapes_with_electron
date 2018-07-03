@@ -170,6 +170,9 @@ function makeCircle(x1, y1) {
 
 function keyPressed() {
 	if (keyCode === 32) {
+		shapes.removeAll();
+	}
+	else if (keyCode === 82) {
 		reset();
 	}
 }
