@@ -1,8 +1,8 @@
-# Shapes (electron version)
+# Shapes
 
 ### Summary
 
-**Disclaimer This was my first JS project after coming from a C++ background so my JS style is not the best.**
+***Disclaimer This was my first JS project after coming from a C++ background so my JS style is not the best.***
 
 This is a simple js app based on clicker games that produces randomly coloured squares and circles with physics on mouse click. 
 The app uses electron to run as a desktop app.
@@ -25,7 +25,7 @@ The required p5.min.js and matter.min.js libs are included in the repo.
 ### Instructions
 
 Clicking on the screen causes shapes to appear near the cursor. Every click alternates between creating squares and circles.
-The total number of shapes created increases the score. As the score increases, more shapes are created with each click. 
+The total number of shapes created increases the score. As the score increases, more shapes are created with each click.
 The max per click is 10 for squares and 5 for circles.
 
 Clicking on a shape directly will swap it between a square or circle.
@@ -39,7 +39,8 @@ Pressing the 'R' key removes all shapes and resets your score (and thus your sha
 
 - Clean up style of code using more object passing for better functionality between objects
 - Fix the "Vacuum" functionality
-- Don't use electron
+   - Currently there is something weird going on with the direction the force applied to the objects not changing each frame
+- Integrate Vue.js with [electron-vue](https://github.com/SimulatedGREG/electron-vue)
 - Use Vue.js components for better organization of page elements
 - Get rid of p5.js and use matter.js for simpler rendering
 - Better use of OOP with inheritance and less coupling
