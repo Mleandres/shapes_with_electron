@@ -2,11 +2,11 @@
 
 ### Summary
 
+**Disclaimer This was my first JS project after coming from a C++ background so my JS style is not the best.**
+
 This is a simple js app based on clicker games that produces randomly coloured squares and circles with physics on mouse click. 
 The app uses electron to run as a desktop app.
 I use the matter.js library for physics simulation and p5.js for rendering.
-
-This was my first JS project after coming from a C++ background so my JS style is not the best.
 
 ### Installation
 
@@ -20,7 +20,7 @@ Then run using:
 npm start
 ```
 
-The p5.min.js and matter.min.js libs are included in the repo.
+The required p5.min.js and matter.min.js libs are included in the repo.
 
 ### Instructions
 
